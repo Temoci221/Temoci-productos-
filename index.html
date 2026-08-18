@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temoci - Merchandising & Regalos Publicitarios para Empresas</title>
+  <meta name="description" content="Artículos publicitarios y merchandising corporativo personalizado para empresas en Albacete y toda España.">
+  
+  <!-- Tailwind CSS & Google Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .orange-gradient { background: linear-gradient(135deg, #FF5E00 0%, #FF8A00 100%); }
+    .orange-text-gradient {
+      background: linear-gradient(135deg, #FF5E00 0%, #FF8A00 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-orange-500 selection:text-white">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl orange-gradient flex items-center justify-center font-extrabold text-white text-xl shadow-lg shadow-orange-500/30 group-hover:scale-105 transition-transform">
+          T
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xl font-extrabold tracking-tight text-white group-hover:text-orange-400 transition-colors">TEMOCI</span>
+          <span class="text-[10px] tracking-widest text-slate-400 font-bold uppercase">Personalización & Merch</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 font-medium text-slate-300 text-sm">
+        <a href="#productos" class="hover:text-orange-400 transition-colors">Catálogo</a>
+        <a href="#ventajas" class="hover:text-orange-400 transition-colors">Por qué elegirnos</a>
+        <a href="#pasos" class="hover:text-orange-400 transition-colors">Proceso</a>
+        <a href="#contacto" class="hover:text-orange-400 transition-colors">Contacto</a>
+      </nav>
+
+      <a href="#presupuesto" class="orange-gradient hover:opacity-95 text-white font-bold text-sm px-6 py-3 rounded-xl transition-all shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:-translate-y-0.5">
+        Pedir Presupuesto
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-12 pb-20 lg:pt-20 lg:pb-32 overflow-hidden">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-1/2 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-semibold mb-6">
+          <span class="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+          Proveedor Directo en Albacete & Envíos Nacionales
+        </div>
+
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-[1.1] mb-6">
+          Merchandising promocional que hace <span class="orange-text-gradient">brillar tu marca</span>
+        </h1>
+
+        <p class="text-lg text-slate-400 mb-8 max-w-2xl leading-relaxed">
+          Diseñamos y fabricamos artículos publicitarios de alto impacto para empresas, eventos y negocios. Parasoles, ropa laboral, tazas, papelería y regalos corporativos con tu logotipo.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 mb-12">
+          <a href="#presupuesto" class="orange-gradient text-white font-bold px-8 py-4 rounded-xl text-center shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2">
+            Solicitar Muestra / Presupuesto
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+          <a href="#productos" class="bg-slate-900 border border-slate-800 text-slate-200 hover:bg-slate-800 font-bold px-8 py-4 rounded-xl text-center transition-all">
+            Ver Productos Destacados
+          </a>
+        </div>
+
+        <!-- Trust Stats -->
+        <div class="grid grid-cols-3 gap-6 pt-8 border-t border-slate-800/80">
+          <div>
+            <div class="text-2xl font-extrabold text-white">+1,000</div>
+            <div class="text-xs text-slate-400 font-medium">Empresas satisfechas</div>
+          </div>
+          <div>
+            <div class="text-2xl font-extrabold text-white">100%</div>
+            <div class="text-xs text-slate-400 font-medium">Personalización a medida</div>
+          </div>
+          <div>
+            <div class="text-2xl font-extrabold text-white">48/72h</div>
+            <div class="text-xs text-slate-400 font-medium">Muestras digitales gratis</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Banner Image -->
+      <div class="lg:col-span-5 relative">
+        <div class="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/50 shadow-2xl">
+          <img src="https://images.unsplash.com/photo-1542744094-3a31216994c4?auto=format&fit=crop&w=1000&q=80" alt="Merchandising Corporativo Temoci" class="w-full h-[480px] object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+          <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-slate-900/90 backdrop-blur-md border border-slate-800">
+            <div class="flex items-center gap-3">
+              <div class="p-2.5 rounded-lg bg-orange-500/20 text-orange-400">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <div class="font-bold text-white text-sm">Garantía de Calidad Técnica</div>
+                <div class="text-xs text-slate-400">Revisamos tu archivo de logo en vector antes de imprimir.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Catalog -->
+  <section id="productos" class="py-20 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-orange-400 font-bold text-xs uppercase tracking-widest">Catálogo Popular</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Los artículos más solicitados por nuestros clientes</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Card 1: Parasoles -->
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-orange-500/50 transition-all group">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" alt="Parasoles de Coche" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-4 left-4 bg-orange-500 text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md">Top Ventas Verano</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-white mb-2">Parasoles Plegables Coche</h3>
+            <p class="text-slate-400 text-sm mb-4">Modelo abanico/acordeón de burbuja de aluminio. Alta visibilidad de marca en parkings y vías públicas.</p>
+            <a href="#presupuesto" class="inline-flex items-center gap-2 text-orange-400 font-bold text-sm hover:text-orange-300">
+              Solicitar precios y medidas
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Ropa Laboral -->
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-orange-500/50 transition-all group">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80" alt="Textil y Ropa Laboral" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-white mb-2">Textil & Ropa Laboral</h3>
+            <p class="text-slate-400 text-sm mb-4">Camisetas, polos, chaquetas y gorras bordadas o serigrafiadas con la máxima durabilidad.</p>
+            <a href="#presupuesto" class="inline-flex items-center gap-2 text-orange-400 font-bold text-sm hover:text-orange-300">
+              Cotizar ropa corporativa
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Drinkware -->
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-orange-500/50 transition-all group">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Tazas y Botellas Térmicas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-white mb-2">Botellas & Tazas Térmicas</h3>
+            <p class="text-slate-400 text-sm mb-4">Manten la bebida fría o caliente con botellas de acero inoxidable y tazas de cerámica marcadas con grabado láser.</p>
+            <a href="#presupuesto" class="inline-flex items-center gap-2 text-orange-400 font-bold text-sm hover:text-orange-300">
+              Ver opciones de marcaje
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Form Section -->
+  <section id="presupuesto" class="py-20 relative">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="bg-slate-900 rounded-3xl p-8 sm:p-12 border border-slate-800 shadow-2xl relative overflow-hidden">
+        <div class="absolute -right-20 -top-20 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <h2 class="text-3xl font-extrabold text-white mb-3">Solicita Tu Presupuesto Sin Compromiso</h2>
+          <p class="text-slate-400 text-sm">Rellena el formulario y te enviaremos una valoración personalizada junto con la maqueta digital gratuita de tu logo.</p>
+        </div>
+
+        <form action="https://formspree.io/f/xbjnqkyj" method="POST" class="space-y-6">
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Nombre Completo</label>
+              <input type="text" name="nombre" required placeholder="Ej. Carlos Martínez" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-orange-500 transition-colors">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Empresa / Razón Social</label>
+              <input type="text" name="empresa" placeholder="Nombre de tu empresa" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-orange-500 transition-colors">
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Email de Contacto</label>
+              <input type="email" name="email" required placeholder="tu@empresa.com" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-orange-500 transition-colors">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Teléfono</label>
+              <input type="tel" name="telefono" required placeholder="600 000 000" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-orange-500 transition-colors">
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Producto de Interés</label>
+              <select name="producto" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-slate-300 focus:outline-none focus:border-orange-500 transition-colors">
+                <option value="Parasoles">Parasoles de Coche</option>
+                <option value="Ropa Laboral">Textil & Ropa Laboral</option>
+                <option value="Botellas/Tazas">Botellas & Tazas Térmicas</option>
+                <option value="Otro">Otro Producto / Varios</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Cantidad Estimada</label>
+              <input type="text" name="cantidad" placeholder="Ej. 250, 500, 1000 unidades" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-orange-500 transition-colors">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Detalles Adicionales</label>
+            <textarea name="mensaje" rows="4" placeholder="Indícanos fechas de entrega deseadas, colores de producto o dudas específicas..." class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-orange-500 transition-colors"></textarea>
+          </div>
+
+          <button type="submit" class="w-full orange-gradient hover:opacity-95 text-white font-extrabold text-base py-4 rounded-xl shadow-lg shadow-orange-500/30 transition-all hover:shadow-orange-500/50">
+            Enviar Solicitud de Presupuesto
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-12 text-slate-500 text-sm">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg orange-gradient flex items-center justify-center font-extrabold text-white text-base">
+          T
+        </div>
+        <span class="text-white font-bold">TEMOCI Personalización</span>
+      </div>
+      <div class="text-center md:text-right">
+        <p>&copy; 2026 TEMOCI Store - Albacete, España. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+                </html>
+                
